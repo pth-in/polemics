@@ -1,6 +1,6 @@
 ---
 title: "Fact-Check Analysis: Historicity of Ramayan Era by Saroj Bala"
-date: 2024-01-15
+date: 2025-11-05
 author: "Polemics"
 tags: ["fact-check", "history", "archaeology", "astronomy", "pseudoscience"]
 draft: false

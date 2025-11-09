@@ -33,5 +33,8 @@ This blog is not affiliated with any academic institution, though we strive to b
 
 ## Contact
 
-For questions, corrections, or suggestions, please contact us through the GitHub repository.
+For questions, corrections, or suggestions, please contact us:
+
+- **Twitter**: [@pth77873528](https://twitter.com/pth77873528)
+- **GitHub**: [pth-in/polemics](https://github.com/pth-in/polemics)
 

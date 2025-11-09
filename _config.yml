@@ -1,8 +1,8 @@
 # Site Settings
 title: "Polemics"
 description: "Critical analysis of historical and scientific claims"
-url: "https://yourusername.github.io" # Replace with your GitHub username
-baseurl: "" # Leave empty if using username.github.io, or "/repository-name" if using project pages
+url: "https://pth-in.github.io"
+baseurl: "/polemics"
 
 # Author
 author:

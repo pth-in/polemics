@@ -1,0 +1,127 @@
+/* Custom Red Color Scheme for Polemics - Override Paper Theme Colors */
+
+/* Red color variables matching original design */
+:root {
+  --paper-color-accent: #d32f2f !important;
+  --paper-color-accent-hover: #b71c1c !important;
+}
+
+/* All links in red */
+a {
+  color: #d32f2f !important;
+}
+
+a:hover,
+a:focus {
+  color: #b71c1c !important;
+}
+
+/* Headings with red accent */
+h1, h2, h3, h4, h5, h6 {
+  color: #b71c1c !important;
+}
+
+/* Post titles */
+.post-title a,
+.post-title {
+  color: #d32f2f !important;
+}
+
+.post-title a:hover {
+  color: #b71c1c !important;
+}
+
+/* Navigation */
+nav a,
+.header-nav a {
+  color: #d32f2f !important;
+}
+
+nav a:hover,
+.header-nav a:hover {
+  color: #b71c1c !important;
+}
+
+/* Social icons */
+.header-social a,
+.header-social svg {
+  color: #d32f2f !important;
+  fill: #d32f2f !important;
+}
+
+.header-social a:hover,
+.header-social a:hover svg {
+  color: #b71c1c !important;
+  fill: #b71c1c !important;
+}
+
+/* Footer links */
+footer a {
+  color: #d32f2f !important;
+}
+
+footer a:hover {
+  color: #b71c1c !important;
+}
+
+/* Preserve the colored boxes from original design for fact-checking */
+.claim,
+.problem,
+.consensus,
+.correct,
+.summary-box {
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+.claim {
+  background: #fff3cd;
+  border-color: #ffc107;
+}
+
+.problem {
+  background: #f8d7da;
+  border-color: #dc3545;
+}
+
+.consensus {
+  background: #d1ecf1;
+  border-color: #0c5460;
+}
+
+.correct {
+  background: #d4edda;
+  border-color: #28a745;
+}
+
+.summary-box {
+  background: #f8f9fa;
+  border-color: #dee2e6;
+  border-width: 2px;
+}
+
+.claim h3,
+.problem h3,
+.consensus h3,
+.correct h3 {
+  margin-top: 0;
+  color: inherit;
+}
+
+/* Make sure post content uses red for emphasis */
+.post-content a {
+  color: #d32f2f !important;
+  text-decoration: underline;
+}
+
+.post-content a:hover {
+  color: #b71c1c !important;
+}
+
+/* Code blocks and inline code can keep default, but links should be red */
+.post-content code a {
+  color: #d32f2f !important;
+}
+

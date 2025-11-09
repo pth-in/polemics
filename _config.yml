@@ -16,6 +16,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# GitHub Pages settings
+github: [metadata]
+
 # Exclude from processing
 exclude:
   - Gemfile

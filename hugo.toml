@@ -1,7 +1,6 @@
 baseURL = "https://pth-in.github.io/polemics"
 languageCode = "en-us"
 title = "Polemics"
-theme = ""
 
 [params]
   description = "Critical analysis of historical and scientific claims"

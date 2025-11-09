@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="home">
+  <div class="hero">
+    <h1 class="page-heading">{{ .Site.Title }}</h1>
+    <p class="description">{{ .Site.Params.description }}</p>
+  </div>
+
+  <div class="posts">
+    <h2 class="post-list-heading">Recent Posts</h2>
+    <ul class="post-list">
+      {{ range .Site.RegularPages }}
+        {{ if eq .Type "posts" }}
+        <li>
+          <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+          <h3>
+            <a class="post-link" href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </h3>
+          {{ if .Params.excerpt }}
+            <p class="post-excerpt">{{ .Params.excerpt }}</p>
+          {{ else if .Summary }}
+            <p class="post-excerpt">{{ .Summary | truncate 150 }}</p>
+          {{ end }}
+        </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="about-section">
+    <h2>About This Blog</h2>
+    <p>This blog provides critical fact-checking and analysis of historical, scientific, and cultural claims. Each post examines evidence, methodology, and academic consensus to separate fact from fiction.</p>
+  </div>
+</div>
+{{ end }}
+
